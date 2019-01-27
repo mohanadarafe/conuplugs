@@ -27,10 +27,38 @@ img { max-width: 100%; }
 ::-moz-selection { background: #ca8bdc; color: #fff; text-shadow: none; }
 ::selection { background: #ca8bdc; color: #fff; text-shadow: none; }
 
-
+.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}
 /***** General style, all sections *****/
 
-.section-container { margin: 0 auto; padding-bottom: 80px; }
+.section-containe.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+	.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+	.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}r { margin: 0 auto; padding-bottom: 80px; }
 .section-description { margin-top: 60px; padding-bottom: 10px; }
 .section-description p { margin-top: 20px; padding: 0 120px; }
 
@@ -59,8 +87,8 @@ ul.navbar-nav { font-size: 16px; color: #fff; }
 .navbar-inverse ul.navbar-nav li a:focus { color: #ca8bdc; outline: 0; }
 
 .navbar-brand {
-	width: 95px;
-	background: url(../img/logo.png) left center no-repeat;
+	width: 110px;
+	background: url(../img/conu.png) left center no-repeat;
 	text-indent: -99999px;
 }
 .navbar>.container .navbar-brand { margin-left: 0; }
@@ -182,7 +210,8 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 95px 34px !important;
+    	background-image: url(../img/conu.png) !important; background-repeat: no-repeat !important; background-size: 105px 34px !important;
+    	float: left !important;
     }
 	
 }
