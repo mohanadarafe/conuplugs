@@ -146,9 +146,6 @@ class ODCU_library{
 							<option value="PHYS284"></option>
 							<option value="ECON201"></option>
 							<option value="ECON203"></option>
-							<option value="COMP445"></option>
-							<option value="COMP345"></option>
-							<option value="COMP353"></option>
 						  </datalist>
 						</div>
 					</form>
